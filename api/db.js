@@ -28,7 +28,7 @@ module.exports = () => {
       id: faker.random.uuid(),
       title: "Jornada en",
       starts_at: startsAt.toISOString(),
-      endsAt: endsAt.toISOString(),
+      ends_at: endsAt.toISOString(),
       distance: 2000 + faker.random.number(500) * 10,
       calories: 1000 + faker.random.number(100) * 10,
       hunter: "/api/hunters/1dd8461251b72526541188301bdf3b0769cb78c3",
