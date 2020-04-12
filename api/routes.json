@@ -1,0 +1,6 @@
+{
+  "/api/hunters/:id": "/hunters/1dd8461251b72526541188301bdf3b0769cb78c3",
+  "/api/hunters/:hunter/journeys": "/journeys",
+  "/api/hunters/:hunter/journeys/:id": "/journeys/:id",
+  "/api/*": "/$1"
+}
