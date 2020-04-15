@@ -1,6 +1,6 @@
 # Cazdata Fake Server
 
-Let's frontend developer to have a fake API server for testing purposes.
+Create a fake cazdata API server for testing and development purposes
 
 ## How to run
 
