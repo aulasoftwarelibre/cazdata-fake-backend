@@ -1,6 +1,8 @@
 {
-  "/api/hunters/:id": "/hunters/1dd8461251b72526541188301bdf3b0769cb78c3",
-  "/api/hunters/:hunter/journeys": "/journeys",
-  "/api/hunters/:hunter/journeys/:id": "/journeys/:id",
+  "/api/animals": "/animals?isEnabled=true",
+  "/api/animals/:id": "/animals/:id",
+  "/api/hunters/:id": "/hunters/416301fa-d4bb-454f-ae19-a26c6677c62a",
+  "/api/journeys": "/journeys?hunter_id=416301fa-d4bb-454f-ae19-a26c6677c62a",
+  "/api/journeys/:id": "/journeys/:id",
   "/api/*": "/$1"
 }
